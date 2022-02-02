@@ -1,5 +1,8 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println(LengthOfLastWord.lengthOfLastWord("a"));
+        int[] digits = {9,9,9};
+        System.out.println(Arrays.toString(PlusOne.plusOne(digits)));
     }
 }
